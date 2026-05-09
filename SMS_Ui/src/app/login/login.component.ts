@@ -113,7 +113,7 @@ export class LoginComponent implements OnInit {
 
       this.authService.setRole(role);
       this.authService.setToken(token);
-console.log('Role:', role);
+      console.log('Role:', role);
       switch (role) {
 
         case 'ADMIN':

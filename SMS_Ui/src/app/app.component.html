@@ -1,3 +1,49 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <!-- Side Menu -->
+
+  <ion-menu contentId="main-content">
+
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>School Management</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+      <ion-list>
+
+        <ion-item routerLink="/admin">
+          Dashboard
+        </ion-item>
+
+        <ion-item routerLink="/student">
+          Students
+        </ion-item>
+
+        <ion-item routerLink="/teacher">
+          Teachers
+        </ion-item>
+
+        <ion-item routerLink="/parent">
+          Parents
+        </ion-item>
+
+      </ion-list>
+
+    </ion-content>
+
+  </ion-menu>
+
+  <!-- Main Content -->
+
+  <div
+    class="ion-page"
+    id="main-content">
+
+    <ion-router-outlet></ion-router-outlet>
+
+  </div>
+
 </ion-app>
