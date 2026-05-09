@@ -1,0 +1,7 @@
+{
+  "name": "SMS_Ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
